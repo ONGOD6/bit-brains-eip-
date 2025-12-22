@@ -1,127 +1,120 @@
-EIP: 0003
-Title: Epoch-Based Token Distribution and Unlock Framework
-Author: Alex Diaz
-Status: Draft
-Type: Standards Track
-Created: 2025-12-21
-Requires: EIP-0001, EIP-0002
 
-Abstract
+# EIP: 0003
+## Title: Epoch-Based Token Distribution and Unlock Framework (Brains)
 
-This EIP defines the epoch-based token distribution and unlock framework
-for the Bit Brains protocol. The framework aligns token availability with
-time-based participation, patience, and economic stewardship rather than
-immediate liquidity or speculative access.
+Author: Alex Diaz  
+Status: Draft  
+Type: Standards Track  
+Created: 2025-12-21  
+Requires: EIP-0001, EIP-0002  
 
-Token unlocks are progressive, cumulative, and tied to epoch completion.
+---
 
-Motivation
+## Abstract
 
-Early token distribution is a common source of misalignment in decentralized
-protocols, often favoring short-term actors over long-term participants.
+This EIP defines the epoch-based distribution and unlock framework for the Bit Brains Intelligence Token (BIT) during the Brain stage of the Bit Brains protocol.
 
-Bit Brains introduces an epoch-based unlock model to ensure that economic
-availability reflects sustained alignment with the protocol’s values and
-mechanics, as defined in EIP-0001 and EIP-0002.
+Token availability is aligned with epoch completion, patience, and sustained participation rather than immediate liquidity or speculative access. Unlocks are progressive, cumulative, and irreversible.
 
-Definitions
+This EIP defines when BIT becomes available, not how influence or rewards are earned.
 
-Epoch: A fixed-duration time period as defined in EIP-0002, used as the
-primary accounting unit for participation and unlocks.
+---
 
-Public Allocation: Tokens designated for broad, permissionless availability
-to participants, subject to epoch-based unlock constraints.
+## Motivation
 
-Cumulative Unlock: A distribution model in which unlocked tokens accumulate
-over time and are never re-locked.
+Early token distribution in decentralized protocols often favors short-term actors over long-term contributors, leading to premature extraction and misaligned incentives.
 
-Supply Parameters
+Bit Brains introduces an epoch-based unlock model to ensure that economic availability reflects sustained alignment with protocol values defined in EIP-0001 and participation mechanics defined in EIP-0002.
 
-Total Token Supply: 80,000,000
+---
 
-Public Unlock Allocation: 85% of total supply (68,000,000 tokens)
+## Definitions
 
-Epoch Duration: 2 months per epoch
+**BIT (Bit Brains Intelligence Token):**  
+The native fungible token of the Bit Brains protocol.
 
-Total Epochs: 5
+**Brain:**  
+A Bit Brains NFT that may evolve into an Autonomous Intelligent Token (AIT) through epoch-based Proof-of-Care.
 
-Total Unlock Horizon: 10 months
+**Epoch:**  
+A fixed-duration accounting period used to measure participation and unlock availability.
 
-Epoch-Based Unlock Schedule
+**Cumulative Unlock:**  
+Unlocked tokens accumulate permanently and are never re-locked.
 
-Token availability increases at the completion of each epoch. Unlocks are
-cumulative and irreversible.
+---
 
-Epoch 1 (Months 0–2)
-Cumulative Unlock: 17%
-Tokens Unlocked: 13,600,000
+## Scope
 
-Epoch 2 (Months 2–4)
-Cumulative Unlock: 34%
-Tokens Unlocked: 27,200,000
+This EIP applies exclusively to the Brain stage of the Bit Brains protocol.
 
-Epoch 3 (Months 4–6)
-Cumulative Unlock: 51%
-Tokens Unlocked: 40,800,000
+Cerebral and Brainiac token mechanics are not activated under this EIP and will be defined in future EIPs.
 
-Epoch 4 (Months 6–8)
-Cumulative Unlock: 68%
-Tokens Unlocked: 54,400,000
+---
 
-Epoch 5 (Months 8–10)
-Cumulative Unlock: 85%
-Tokens Unlocked: 68,000,000
+## Supply Parameters
 
-Unlock Mechanics
+Total BIT Supply: 90,000,000
 
-Unlocks occur only at epoch boundaries.
-Unlocked tokens remain unlocked permanently.
-No cliff unlocks are present beyond epoch completion.
-Token availability does not imply guaranteed rewards or yields.
+Stage Allocations:
+- Brain Stage: 30,000,000 BIT
+- Cerebral Stage: 30,000,000 BIT (future)
+- Brainiac Stage: 30,000,000 BIT (future)
 
-The remaining 15% of total supply is intentionally excluded from this EIP
-and may be defined in future specifications.
+This EIP governs only the Brain Stage allocation.
 
-Relationship to Epoch Proof-of-Care
+---
 
-This EIP defines when tokens become available, not how influence or rewards
-are earned.
+## Epoch Parameters (Brains)
 
-Participation, influence, and care mechanics are defined exclusively in
-EIP-0002. Token availability and participation are related but independent
-dimensions.
+Epoch Duration: approximately 1 month
+Total Brain Epochs: 5  
+Total Brain Distribution: 30,000,000 BIT  
+Total Unlock Horizon: approximately 5 months  
 
-Design Principles
+---
 
-Public-first distribution
-Patience as an economic signal
-Progressive, predictable unlocks
-Minimal complexity
-Auditability and clarity
+## Epoch-Based Unlock Schedule (Brains)
 
-Non-Goals
+Epoch 1 (Months 0â2): 20% unlocked â 6,000,000 BIT  
+Epoch 2 (Months 2â4): 40% unlocked â 12,000,000 BIT  
+Epoch 3 (Months 4â6): 60% unlocked â 18,000,000 BIT  
+Epoch 4 (Months 6â8): 80% unlocked â 24,000,000 BIT  
+Epoch 5 (Months 8â10): 100% unlocked â 30,000,000 BIT  
 
-This EIP does not define:
-- Governance rights
-- Yield calculations
-- Reward distribution formulas
-- Secondary market behavior
-- Offspring or derivative token systems
+---
 
-Rationale
+## Unlock Mechanics
 
-By aligning token availability with time and epochs, Bit Brains reinforces
-economic stewardship and discourages premature extraction.
+Unlocks occur only at epoch boundaries.  
+Unlocked BIT remains permanently unlocked.  
+Token availability does not imply automatic distribution or yield.
 
-The framework ensures that participants who demonstrate patience and
-alignment are favored over short-term opportunistic behavior.
+---
 
-Security Considerations
+## Relationship to EIP-0002
 
-Risks include strategic behavior around epoch boundaries and market
-anticipation of unlock events. These risks are mitigated through transparent,
-predictable scheduling and the absence of sudden liquidity cliffs.
+This EIP defines availability timing only.
 
-Copyright
+Proof-of-Care evaluation, influence, and reward eligibility are defined exclusively in EIP-0002.
 
-Copyright and related rights waived via CC0.
+---
+
+## Design Principles
+
+- Patience as an economic signal  
+- Progressive, predictable unlocks  
+- Public-first distribution  
+- Auditability and clarity  
+
+---
+
+## Non-Goals
+
+This EIP does not define governance rights, yield formulas, or downstream activation logic.
+
+---
+
+## Copyright
+
+CCO
