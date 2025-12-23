@@ -42,6 +42,31 @@ Deploying on an Ethereum ZK rollup enables scalable interaction while preserving
 - Epoch progression is deterministic and globally verifiable.
 - Proof-of-care accrues exclusively through valid epoch participation.
 
+- ### Security, Lifecycle, and Governance (Phase One)
+
+Phase One of the Bit Brains protocol intentionally minimizes governance complexity and attack surface.
+
+#### Security Model
+
+- All canonical state transitions MUST be enforced by Ethereum-based smart contracts.
+- No off-chain authority, multisig governance, or admin key MAY modify Brain state.
+- Brain NFTs, proof-of-care validation, and epoch progression MUST be fully deterministic and publicly verifiable.
+- Economic parameters defined in prior EIPs are immutable during Phase One deployment.
+
+#### Lifecycle Constraints
+
+- Brains progress through discrete, protocol-defined lifecycle states.
+- Lifecycle transitions are triggered exclusively by on-chain epoch conditions and proof-of-care validation.
+- Manual intervention, pausing, or emergency overrides are explicitly disallowed in Phase One.
+
+#### Governance Scope
+
+- Phase One introduces no active governance mechanism.
+- No voting, parameter adjustment, or protocol upgrades are permitted once deployed.
+- Governance is limited to passive stewardship: monitoring, documentation, and proposal drafting for future phases.
+
+Future protocol phases MAY introduce formal governance frameworks, upgrade paths, or security councils, but such mechanisms are explicitly out of scope for this EIP.
+
 ---
 
 ### Identity and Naming
