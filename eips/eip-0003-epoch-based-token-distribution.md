@@ -78,7 +78,7 @@ Total Unlock Horizon: approximately 5 months
 
 Epoch 1 
 Epoch 2  
-Epoch 3  50% unlocked 15,000,000 BIT
+Epoch 3 50% unlocked 15,000,000 BIT
 Epoch 4 
 Epoch 5 100% unlocked 15,000,000 BIT
 
