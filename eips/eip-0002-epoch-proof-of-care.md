@@ -1,6 +1,7 @@
 EIP: 0002
 Title: Epoch Proof-of-Care (EPO) for Brains
-Author: Alex Diaz
+Author: Alex Diaz  
+Developer: OnGod
 Status: Draft
 Type: Standards Track
 Created: 2025-12-21
