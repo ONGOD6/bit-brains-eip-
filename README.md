@@ -13,6 +13,26 @@ This repository contains the canonical Ethereum Improvement Proposal–style doc
 These documents define the economic, governance, and protocol-level frameworks that guide
 the design, evolution, and stewardship of Bit Brains. All proposals in this repository are
 intended to be read, discussed, and referenced prior to implementation.
+## Epoch-to-RWA Transformation
+
+Bit Brains undergo a protocol-level transformation after the completion of the first five epochs.
+
+During the Brain phase, assets exist in a Genesis state: minted, distributed, and observed. No external value inputs are required.
+## Real World Asset Convergence
+
+ENS provides persistent identity. Proof of Care provides real-world input.
+
+Together, they allow Bit Brains to function as autonomous assets that evolve based on real-world activity without custodial control or surveillance.
+
+This convergence enables long-term coordination between humans, machines, and protocols.
+
+After Epoch Five, Brains activate as autonomous intelligent assets and issue Cerebral extensions. At this point, the protocol begins responding to real-world participation through Proof of Care.
+
+This marks the convergence into Real World Assets (RWA).
+
+Bit Brains do not represent ownership of off-chain property or financial claims. Instead, they are real-world–anchored assets whose behavior, rewards, and evolution are influenced by verifiable human and machine participation.
+
+Value emerges from continuity, contribution, and belief rather than extraction or speculation.
 
 The primary objective of this repository is clarity, coherence, and long-term stewardship
 of the Bit Brains system.
