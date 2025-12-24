@@ -1,6 +1,7 @@
 EIP: 0001
 Title: Economic Stewardship Framework for Bit Brains
-Author: Alex Diaz
+Author: Alex Diaz  
+Developer: OnGod
 Status: Draft
 Type: Informational
 Created: 2025-12-21
