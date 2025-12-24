@@ -1,5 +1,10 @@
 # Bit Brains — EIP Repository
+## Authorship & Attribution
 
+Author: Alex Diaz  
+Developer: ONGOD
+
+This repository is authored and maintained by Alex Diaz, with development, protocol design, and implementation led under the developer handle ONGOD.
 ## Overview
 
 This repository contains the canonical Ethereum Improvement Proposal–style documents
