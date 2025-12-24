@@ -3,6 +3,7 @@
 EIP: 0004  
 Title: Cerebral NFTs and Reward Pathways  
 Author: Alex Diaz  
+Developer: OnGod
 Status: Draft  
 Type: Standards Track  
 Category: Core  
